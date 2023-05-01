@@ -43,36 +43,9 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
-
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 </head>
 
 <body>
-
-
-  <script>
-  function tab_click(pageName) {
-    pageName='#'+pageName
-    let all_pages = ['#team', '#projects', '#introinfo' , '#research_area' ]
-
-    for (let i=0; i<all_pages.length;i++){
-       if (all_pages[i]==pageName){
-        $(all_pages[i]).css('display','block')
-       }else{
-        $(all_pages[i]).hide();
-
-       }
-    }
-    if (pageName=="#introinfo"){
-      $('#research_area').css('display','block')
-    }
-    console.log(pageName);
-    
-  }
-  </script>
-
-
-
 
   <!-- ======= Header ======= -->
   <header id="header" class="header fixed-top" data-scrollto-offset="0">
@@ -87,11 +60,12 @@
       <nav id="navbar" class="navbar" >
         <ul>
 
-          <li><a class="nav-link scrollto" href="index.html#" onclick="tab_click('introinfo')">Home</a></li>
+          <li><a class="nav-link scrollto" href="index.html#">Home</a></li>
 
-          <li><a class="nav-link scrollto" href="index.html#" onclick="tab_click('team')">Team</a></li>
 
-          <li><a class="nav-link scrollto" href="index.html#" onclick="tab_click('projects')">Projects</a></li>
+          <li><a class="nav-link scrollto" href="index.html#team">Team</a></li>
+
+          <li><a class="nav-link scrollto" href="index.html#services">Projects</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle d-none"></i>
       </nav><!-- .navbar -->
@@ -101,29 +75,19 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- <section id="" class="hero-animated d-flex align-items-center" >
-    <div id='introinfo' class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
+  <section id="hero-animated" class="hero-animated d-flex align-items-center">
+    <div class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
       <img src="assets/img/binary/red-code.jpeg" class="img-fluid animated">
       <h2><span>Binary Program Understanding Lab</span> Auburn University</h2>
       <p>Et voluptate esse accusantium accusamus natus reiciendis quidem voluptates similique aut.</p>
 
     </div>
-  </section> -->
-
-
-
+  </section>
 
   <main id="main">
-    <section id="introinfo" class="hero-animated  align-items-center" >
-      <div id='' class="container  flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-        <img src="assets/img/binary/red-code.jpeg" class="img-fluid animated">
-        <h2><span>Binary Program Understanding Lab</span> Auburn University</h2>
-        <p>Et voluptate esse accusantium accusamus natus reiciendis quidem voluptates similique aut.</p>
-  
-      </div>
-    </section>
+
     <!-- ======= Featured Services Section ======= -->
-    <section id="research_area" class="featured-services">
+    <section id="featured-services" class="featured-services">
       <div class="container" data-aos="fade-down">
 
         <div class="section-header">
@@ -140,7 +104,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out" >
+          <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out" data-aos-delay="200">
             <div class="service-item position-relative">
               <div class="icon"><img src="assets/img/reverse.png" class="img-fluid" alt=""></i></div>
               <h4><a class="stretched-link">Reverse Engineering</a></h4>
@@ -148,7 +112,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out" >
+          <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out" data-aos-delay="400">
             <div class="service-item position-relative">
               <div class="icon"><img src="assets/img/vr.png" class="img-fluid" alt=""></i></div>
               <h4><a class="stretched-link">Virtual Reality</a></h4>
@@ -156,7 +120,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out" >
+          <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out" data-aos-delay="600">
             <div class="service-item position-relative">
               <div class="icon"><img src="assets/img/ml.png" class="img-fluid" alt=""></div>
               <h4><a  class="stretched-link">Machine Learning</a></h4>
@@ -164,7 +128,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out" >
+          <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out" data-aos-delay="600">
             <div class="service-item position-relative">
               <div class="icon"><img src="assets/img/security.png" class="img-fluid" alt=""></div>
               <h4><a  class="stretched-link">Cyber Security</a></h4>
@@ -172,7 +136,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out" >
+          <div class="col-xl-2 col-md-4 d-flex" data-aos="zoom-out" data-aos-delay="600">
             <div class="service-item position-relative">
               <div class="icon"><img src="assets/img/adversarial.png" class="img-fluid" alt=""></i></div>
               <h4><a  class="stretched-link">Adversarial Analysis</a></h4>
@@ -189,8 +153,8 @@
 
 
     <!-- ======= Services Section ======= -->
-    <section id="projects" class="services" style="display:none">
-      <div class="container" >
+    <section id="services" class="services">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-header">
           <h2> Projects</h2>
@@ -199,7 +163,7 @@
 
         <div class="row gy-5">
 
-          <div class="col-xl-4 col-md-6" >
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="200">
             <div class="service-item">
               <div class="img">
                 <img src="assets/img/type.png" class="img-fluid" alt="">
@@ -216,7 +180,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-4 col-md-6"  >
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="300">
             <div class="service-item">
               <div class="img">
                 <img src="assets/img/services-2.jpg" class="img-fluid" alt="">
@@ -233,7 +197,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-4 col-md-6"  >
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="400">
             <div class="service-item">
               <div class="img">
                 <img src="assets/img/services-3.jpg" class="img-fluid" alt="">
@@ -250,7 +214,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-4 col-md-6"  >
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="500">
             <div class="service-item">
               <div class="img">
                 <img src="assets/img/services-4.jpg" class="img-fluid" alt="">
@@ -268,7 +232,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-4 col-md-6" >
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="600">
             <div class="service-item">
               <div class="img">
                 <img src="assets/img/services-5.jpg" class="img-fluid" alt="">
@@ -286,7 +250,7 @@
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-xl-4 col-md-6" >
+          <div class="col-xl-4 col-md-6" data-aos="zoom-in" data-aos-delay="700">
             <div class="service-item">
               <div class="img">
                 <img src="assets/img/services-6.jpg" class="img-fluid" alt="">
@@ -314,8 +278,8 @@
 
 
     <!-- ======= Team Section ======= -->
-    <section id="team" class="team" style="display:none">
-      <div class="container" >
+    <section id="team" class="team">
+      <div class="container" data-aos="fade-up">
 
         <div class="section-header">
           <h2>Our Team</h2>
@@ -324,7 +288,7 @@
 
         <div class="row gy-5">
 
-          <div class="col-xl-4 col-md-6 d-flex" >
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="200">
             <div class="team-member">
               <div class="member-img">
                 <img src="assets/img/mulder-samuel.jpg" class="img-fluid" alt="">
@@ -341,7 +305,7 @@
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-xl-4 col-md-6 d-flex"  >
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="400">
             <div class="team-member">
               <div class="member-img">
                 <img src="assets/img/nahid.jpg" class="img-fluid" alt="">
@@ -358,7 +322,7 @@
             </div>
           </div><!-- End Team Member -->
 
-          <div class="col-xl-4 col-md-6 d-flex"  >
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" data-aos-delay="600">
             <div class="team-member">
               <div class="member-img">
                 <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
