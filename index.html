@@ -64,7 +64,8 @@
        }
     }
     if (pageName=="#introinfo"){
-      $('#research_area').css('display','block')
+      $('#research_area').css('display','block');
+      $('#projects').css('display','block')
     }
     console.log(pageName);
     
@@ -81,7 +82,7 @@
       <a href="index.html" class="logo d-flex align-items-center scrollto me-auto me-lg-0">
         <!-- Uncomment the line below if you also wish to use an image logo -->
         
-        <h1>PUN<span>.</span> LAB</h1>
+        <h1>A PUN <span>.</span> LAB</h1>
       </a>
 
       <nav id="navbar" class="navbar" >
@@ -89,7 +90,7 @@
 
           <li><a class="nav-link scrollto" href="index.html#" onclick="tab_click('introinfo')">Home</a></li>
 
-          <li><a class="nav-link scrollto" href="index.html#" onclick="tab_click('projects')">Projects</a></li>
+
 
           <li><a class="nav-link scrollto" href="index.html#" onclick="tab_click('team')">Team</a></li>
 
@@ -103,92 +104,23 @@
     </div>
   </header><!-- End Header -->
 
-  <!-- <section id="" class="hero-animated d-flex align-items-center" >
-    <div id='introinfo' class="container d-flex flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-      <img src="assets/img/binary/red-code.jpeg" class="img-fluid animated">
-      <h2><span>Binary Program Understanding Lab</span> Auburn University</h2>
-      <p>Et voluptate esse accusantium accusamus natus reiciendis quidem voluptates similique aut.</p>
-
-    </div>
-  </section> -->
-
 
 
 
   <main id="main">
-    <section id="introinfo" class="hero-animated  align-items-center" >
+    <section id="introinfo" class=" align-items-center" >
       <div id='' class="container  flex-column justify-content-center align-items-center text-center position-relative" data-aos="zoom-out">
-        <img src="assets/img/binary/red-code.jpeg" class="img-fluid animated">
-        <h2><span>P</span>rogram <span>Un</span>derstanding Lab, Auburn University</h2>
-        <p>Advancing Cybersecurity through Binary Program Analysis: Harnessing the Power of Reverse Engineering, Deep Learning, and Virtual Reality.</p>
-  
+        <h1><span style="color: #0ea2bd;">A</span>uburn <span style="color: #0ea2bd;">P</span>rogram <span style="color: #0ea2bd;">Un</span>derstanding Lab, Auburn University</h1>
+        <h4>Advancing Cybersecurity through Binary Program Analysis, Harnessing the Power of Reverse Engineering, Deep Learning, and Virtual Reality.</h4>
       </div>
     </section>
-    <!-- ======= Featured Services Section ======= -->
-    <section id="research_area" class="featured-services">
-      <div class="container" >
-
-        <div class="row gy-4">
-
-          <div class="col-xl-2 col-md-4 " >
-            <div class="service-item position-relative">
-              <div class="icon"><img src="assets/img/binary_analysis.png" class="img-fluid" alt=""></i></div>
-              <h4><a class="stretched-link">Program Analysis</a></h4>
-              
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-2 col-md-4 "  >
-            <div class="service-item position-relative">
-              <div class="icon"><img src="assets/img/reverse.png" class="img-fluid" alt=""></i></div>
-              <h4><a class="stretched-link">Reverse Engineering</a></h4>
-              
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-2 col-md-4 "  >
-            <div class="service-item position-relative">
-              <div class="icon"><img src="assets/img/vr.png" class="img-fluid" alt=""></i></div>
-              <h4><a class="stretched-link">Virtual Reality</a></h4>
-             
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-2 col-md-4 "  >
-            <div class="service-item position-relative">
-              <div class="icon"><img src="assets/img/ml.png" class="img-fluid" alt=""></div>
-              <h4><a  class="stretched-link">Machine Learning</a></h4>
-              
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-2 col-md-4 "  >
-            <div class="service-item position-relative">
-              <div class="icon"><img src="assets/img/security.png" class="img-fluid" alt=""></div>
-              <h4><a  class="stretched-link">Cyber Security</a></h4>
-              
-            </div>
-          </div><!-- End Service Item -->
-
-          <div class="col-xl-2 col-md-4 " >
-            <div class="service-item position-relative">
-              <div class="icon"><img src="assets/img/adversarial.png" class="img-fluid" alt=""></i></div>
-              <h4><a  class="stretched-link">Adversarial Analysis</a></h4>
-            </div>
-          </div><!-- End Service Item -->
-
-        </div>
-
-      </div>
-    </section><!-- End Featured Services Section -->
 
 
 
 
 
 
-
-    <section id="projects" class="blog" style="display:none">
+    <section id="projects" class="blog" style="display:block">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
           <h2> Projects</h2>
@@ -309,7 +241,65 @@
   
 
 
-
+            <!-- ======= Featured Services Section ======= -->
+            <section id="research_area" class="featured-services">
+              <div class="container" >
+                <div class="section-header">
+                  <h3> Areas Of Interest</h3>
+                </div>
+                <div class="row gy-4">
+        
+                  <div class="col-xl-2 col-md-4 " >
+                    <div class="service-item position-relative">
+                      <div class="icon"><img src="assets/img/binary_analysis.png" class="img-fluid" alt=""></i></div>
+                      <h4><a class="stretched-link">Program Analysis</a></h4>
+                      
+                    </div>
+                  </div><!-- End Service Item -->
+        
+                  <div class="col-xl-2 col-md-4 "  >
+                    <div class="service-item position-relative">
+                      <div class="icon"><img src="assets/img/reverse.png" class="img-fluid" alt=""></i></div>
+                      <h4><a class="stretched-link">Reverse Engineering</a></h4>
+                      
+                    </div>
+                  </div><!-- End Service Item -->
+        
+                  <div class="col-xl-2 col-md-4 "  >
+                    <div class="service-item position-relative">
+                      <div class="icon"><img src="assets/img/vr.png" class="img-fluid" alt=""></i></div>
+                      <h4><a class="stretched-link">Virtual Reality</a></h4>
+                     
+                    </div>
+                  </div><!-- End Service Item -->
+        
+                  <div class="col-xl-2 col-md-4 "  >
+                    <div class="service-item position-relative">
+                      <div class="icon"><img src="assets/img/ml.png" class="img-fluid" alt=""></div>
+                      <h4><a  class="stretched-link">Machine Learning</a></h4>
+                      
+                    </div>
+                  </div><!-- End Service Item -->
+        
+                  <div class="col-xl-2 col-md-4 "  >
+                    <div class="service-item position-relative">
+                      <div class="icon"><img src="assets/img/security.png" class="img-fluid" alt=""></div>
+                      <h4><a  class="stretched-link">Cyber Security</a></h4>
+                      
+                    </div>
+                  </div><!-- End Service Item -->
+        
+                  <div class="col-xl-2 col-md-4 " >
+                    <div class="service-item position-relative">
+                      <div class="icon"><img src="assets/img/adversarial.png" class="img-fluid" alt=""></i></div>
+                      <h4><a  class="stretched-link">Adversarial Analysis</a></h4>
+                    </div>
+                  </div><!-- End Service Item -->
+        
+                </div>
+        
+              </div>
+            </section><!-- End Featured Services Section -->
 
 
 
@@ -345,6 +335,90 @@
             </div>
           </div><!-- End Team Member -->
 
+
+        
+  
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" >
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/brown.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <h4> Dennis Brown</h4>
+                <h6>Ph.D. Student</h6>
+                <span>Dennis is a computer scientist currently working in defense acquisition while pursuing a PhD. His background includes 25 years as a computer scientist working with academia, industry, and government across the product lifecycle from R&D to sustainment. He has authored or co-authored 30 peer-reviewed publications primarily in augmented and virtual reality. He holds computer science degrees from Rice University and UNC-Chapel Hill. 
+                  Research Interests: Mixed Reality, Augmented Intelligence, Artificial Intelligence</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
+
+
+
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in"  >
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/CTChidambaramPhoto.jpg" class="img-fluid" alt="">
+
+              </div>
+              <div class="member-info">
+                <h4>C.T. Chidambaram</h4>
+                <h6>Ph.D. Student</h6>
+                <span>CT is currently an Executive Director at Morgan Stanley in Cyber Data Risk and Resilience. CT has a broad experience in building and securing enterprise and embedded systems.  Currently working towards a PhD.</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in"  >
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/nahid.jpg" class="img-fluid" alt="">
+              </div>
+              <div class="member-info">
+                <div class="social">
+                  <a href="https://scholar.google.com/citations?user=IJOkDsMAAAAJ&hl=en&oi=ao"><i class="bi bi-google"></i></a>
+                  <a href="https://www.linkedin.com/in/raisul-arefin-nahid-43061479/"><i class="bi bi-linkedin"></i></a>
+                
+                </div>
+                <h4>Raisul Arefin</h4>
+                <h6>Ph.D. Student</h6>
+                <span>Raisul is a P.hD. student interested in Reverse Engineering, Machine learning, and Natural Language Processing. He did his bachelor's at the Bangladesh University of Engineering and Technology. He has 5 years of experience in Software development and 3 years of experience in Deep Learning. He is looking for Summer Internship opportunities.</span>
+              </div>
+            </div>
+          </div><!--End Team Member -->
+
+          
+
+
+
+
+          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" >
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/Ahmed_Mostafa.jpg" class="img-fluid" alt="">
+
+              </div>
+              <div class="member-info">
+
+
+                <div class="social">
+                  <a href="https://scholar.google.com/citations?hl=en&user=ju0ihd8AAAAJ&view_op=list_works&gmla=AHoSzlV9mSUXvjEhwF0w68xxSLhlUIvpQmsQGbwotW9wzu361Aox5MB7pkTfMgtTgPLpFWcjZ8RvusA7H39C7maJ"><i class="bi bi-google"></i></a>
+
+                  <a href="https://www.linkedin.com/in/ahmed-mostafa-a4993b102/"><i class="bi bi-linkedin"></i></a>
+                </div>
+
+                <h4> Ahmed Mostafa</h4>
+                <h6>Ph.D. Student</h6>
+                <span>Ahmed is a Ph.D. student who is enthusiastic in doing research in cybersecurity and reverse engineering using the emerging technologies of AI, deep learning, and natural language processing. Before he joined his Ph.D. program, he received a master’s degree in computer science and a BSc degree in electrical engineering. He spent 2 years doing research in natural language processing and has 3 years of experience working in the Telecommunication and operations analysis industry.</span>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+
           <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" >
             <div class="team-member">
               <div class="member-img">
@@ -360,76 +434,6 @@
             </div>
           </div><!-- End Team Member -->
 
-
-        
-  
-          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in" >
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/brown.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <h4> Dennis Brown</h4>
-                <h6>P.hD. Student</h6>
-                <span>Dennis is a computer scientist currently working in defense acquisition while pursuing a PhD. His background includes 25 years as a computer scientist working with academia, industry, and government across the product lifecycle from R&D to sustainment. He has authored or co-authored 30 peer-reviewed publications primarily in augmented and virtual reality. He holds computer science degrees from Rice University and UNC-Chapel Hill. 
-                  Research Interests: Mixed Reality, Augmented Intelligence, Artificial Intelligence</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in"  >
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/nahid.jpg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-                <div class="social">
-                  <a href="https://scholar.google.com/citations?user=IJOkDsMAAAAJ&hl=en&oi=ao"><i class="bi bi-google"></i></a>
-                  <a href="https://www.linkedin.com/in/raisul-arefin-nahid-43061479/"><i class="bi bi-linkedin"></i></a>
-                
-                </div>
-                <h4>Raisul Arefin</h4>
-                <h6>P.hD. Student</h6>
-                <span>Raisul is a P.hD. student interested in Reverse Engineering, Machine learning, and Natural Language Processing. He did his bachelor's at the Bangladesh University of Engineering and Technology. He has 5 years of experience in Software development and 3 years of experience in Deep Learning. He is looking for Summer Internship opportunities.</span>
-              </div>
-            </div>
-          </div><!--End Team Member -->
-
-
-
-
-
-
-          
-          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in"  >
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/Carlo.jpeg" class="img-fluid" alt="">
-              </div>
-              <div class="member-info">
-
-                <h4>Carlo Baylon</h4>
-                <h6>Masters Student</h6>
-                <span>Carlo is a masters student in cybersecurity engineering that is interested in reverse engineering, binary analysis, and embedded systems.</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
-
-
-
-          <div class="col-xl-4 col-md-6 d-flex" data-aos="zoom-in"  >
-            <div class="team-member">
-              <div class="member-img">
-                <img src="assets/img/team/CTChidambaramPhoto.jpg" class="img-fluid" alt="">
-
-              </div>
-              <div class="member-info">
-                <h4>C.T. Chidambaram</h4>
-                <h6>P.hD. Student</h6>
-                <span>CT is currently an Executive Director at Morgan Stanley in Cyber Data Risk and Resilience. CT has a broad experience in building and securing enterprise and embedded systems.  Currently working towards a PhD.</span>
-              </div>
-            </div>
-          </div><!-- End Team Member -->
           
         </div>
       </div>
