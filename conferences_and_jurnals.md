@@ -1,6 +1,7 @@
 
 Security and Privacy Conference Deadlines: https://sec-deadlines.github.io/
 
+C/J/S stands for Conferences, Journals and Symposium respectively.
 
 | Title    |    | S/C/J        |   Deadline    | Link  |
 | -------|-------------------- |:----:| -----------------------:|---:|
