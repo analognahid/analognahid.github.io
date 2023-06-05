@@ -1,6 +1,6 @@
 Colons can be used to align columns.
 
-| Title    |    | Symp/Conf/Jour         |   Deadline    | Link  |
+| Title    |    | S/C/J        |   Deadline    | Link  |
 | -------|-------------------- |:----:| -----------------------:|---:|
 |AsiaCCS  |  ACM ASIA Conference on Computer and Communications Security |    C        |    08/21/2024        |		[AsiaCCS](https://asiaccs2024.sutd.edu.sg/)		|
 |NDSS |    Network and Distributed System Security |   S   |    06/28/2023 | [ndss24](https://www.ndss-symposium.org/ndss2024/)|
