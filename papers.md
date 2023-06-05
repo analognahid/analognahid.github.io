@@ -10,5 +10,6 @@ Colons can be used to align columns.
 |CCS :: ACM Conference on Computer and Communications Security  |C|20 July, 2023| [CCS2023](https://www.sigsac.org/ccs/CCS2023/)|
 |ASE 2023|J|5 Jun 2023|[ase-2023](https://conf.researchr.org/track/ase-2023/ase-2023-journal-first-papers)|
 |SANER::IEEE Int Conf on Software Analysis, Evolution and Reengineering |C,J | oct~ |[SANER24](https://conf.researchr.org/home/saner-2024)|
+|S&P ::IEEE Symposium on Security and Privacy|S|April,Aug,Dec|[S&P 24](https://sp2024.ieee-security.org/cfpapers.html)|
 
 
