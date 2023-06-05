@@ -13,5 +13,7 @@ Colons can be used to align columns.
 |S&P ::IEEE Symposium on Security and Privacy|S|April,Aug,Dec|[S&P 24](https://sp2024.ieee-security.org/cfpapers.html)|
 |MDPI Journal of Cybersecurity and Privacy|J| 30 Aug, 2023|[link](https://www.mdpi.com/journal/jcp)|
 |ICSME:: Int Conf on Software Maintenance and Evolution|C/J|J-16th Jun, C-27 Apr|[ICSME23](https://conf.researchr.org/home/icsme-2023)|
+|PLDI::ACM SIGPLAN Conference on Programming Language Design and Implementation|C|May 19,23|[PLDI 2023](https://pldi23.sigplan.org/)|
+
 
 
