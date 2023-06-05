@@ -1,4 +1,4 @@
-SECURITY AND PRIVACY CONF DEADLINES: https://sec-deadlines.github.io/
+Security and Privacy Conference Deadlines: https://sec-deadlines.github.io/
 
 
 | Title    |    | S/C/J        |   Deadline    | Link  |
