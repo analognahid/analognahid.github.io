@@ -17,6 +17,7 @@ Security and Privacy Conference Deadlines: https://sec-deadlines.github.io/
 |ICSME | Int Conf on Software Maintenance and Evolution|C/J|J-16th Jun, C-27 Apr|[ICSME23](https://conf.researchr.org/home/icsme-2023)|
 |PLDI | ACM SIGPLAN Conference on Programming Language Design and Implementation|C|May 19,23|[PLDI 2023](https://pldi23.sigplan.org/)|
 |ACM TOPS |ACM Transactions on Privacy and Security|J| ?|[link](https://dl.acm.org/journal/tops)|
+||IEEE Transactions on Dependable and Secure Computing|J|15th Sept,2023|[call](https://www.computer.org/publications/author-resources/calls-for-papers?type=trans&publication=tq)|
 
 
 
