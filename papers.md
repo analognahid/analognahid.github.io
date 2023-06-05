@@ -8,5 +8,6 @@ Colons can be used to align columns.
 |ISSTA :: The ACM SIGSOFT International Symposium on Software Testing and Analysis |S| February 16, 2023| [ISSTA2003](https://conf.researchr.org/home/issta-2023)|
 |USENIX (MULTIPLE)|C|NA|[Conferences list](https://www.usenix.org/conferences)|
 |CCS :: ACM Conference on Computer and Communications Security  |C|20 July, 2023| [CCS2023](https://www.sigsac.org/ccs/CCS2023/)|
+|ASE 2023|J|5 Jun 2023|[ase-2023](https://conf.researchr.org/track/ase-2023/ase-2023-journal-first-papers)|
 
 
